@@ -5,11 +5,5 @@
   ],
   "plugins": [
     "stylelint-order"
-  ],
-  "rules": {
-    "indentation": [
-      "tab"
-    ],
-    "color-hex-case": "upper"
-  }
+  ]
 }

@@ -1,6 +1,19 @@
-import '@/styles/globals.css';
+/* eslint-disable @next/next/no-page-custom-font */
 import type { AppProps } from 'next/app';
+import '@/styles/globals.css';
+import Head from 'next/head';
+import React from 'react';
 
-export default function App({ Component, pageProps }: AppProps): JSX.Element {
-  return <Component {...pageProps} />;
+function App({ Component, pageProps }: AppProps): JSX.Element {
+  return (
+    <>
+      <Head>
+        <title>My Top - Our Best Top</title>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
+
+export default App;
