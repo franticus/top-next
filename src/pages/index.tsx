@@ -1,12 +1,37 @@
 import React from 'react';
-import { Button, Htag } from '../components';
+import { Button, H, P } from '../components';
 
-export default function Home(): JSX.Element {
+export default function Home() {
   return (
     <>
-      <Htag tag='h2'>12345</Htag>
-      <Button appearance='primary' arrow='right'>Узнать подробнее</Button>
-      <Button appearance='ghost' arrow='down'>Читать отзывы</Button>
+      <H tag='h1'>Курсы по Photoshop</H>
+      <Button appearance='primary' arrow='right'>
+        Узнать подробнее
+      </Button>
+      <Button appearance='ghost' arrow='down'>
+        Читать отзывы
+      </Button>
+      <P size='sm'>
+        Студенты освоят не только hard skills, необходимые для работы
+        веб-дизайнером, но и soft skills — навыки, которые позволят эффективно
+        взаимодействовать в команде с менеджерами, разработчиками и
+        маркетологами. Выпускники факультета могут успешно конкурировать с
+        веб-дизайнерами уровня middle.
+      </P>
+      <P size='m'>
+        Студенты освоят не только hard skills, необходимые для работы
+        веб-дизайнером, но и soft skills — навыки, которые позволят эффективно
+        взаимодействовать в команде с менеджерами, разработчиками и
+        маркетологами. Выпускники факультета могут успешно конкурировать с
+        веб-дизайнерами уровня middle.
+      </P>
+      <P size='lg'>
+        Студенты освоят не только hard skills, необходимые для работы
+        веб-дизайнером, но и soft skills — навыки, которые позволят эффективно
+        взаимодействовать в команде с менеджерами, разработчиками и
+        маркетологами. Выпускники факультета могут успешно конкурировать с
+        веб-дизайнерами уровня middle.
+      </P>
     </>
   );
 }
