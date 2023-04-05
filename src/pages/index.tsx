@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, H, P } from '../components';
+import { Button, H, P, Tag } from '../components';
 
 export default function Home() {
   return (
@@ -32,6 +32,17 @@ export default function Home() {
         маркетологами. Выпускники факультета могут успешно конкурировать с
         веб-дизайнерами уровня middle.
       </P>
+      <Tag size='m' color='ghost'>10 000 $</Tag>
+      <Tag size='m' color='red'>10 000 $</Tag>
+      <Tag size='m' color='green'>10 000 $</Tag>
+      <Tag size='m' color='gray'>10 000 $</Tag>
+      <Tag size='m' color='primary'>10 000 $</Tag>
+      <br />
+      <Tag size='sm' color='ghost'>10 000 $</Tag>
+      <Tag size='sm' color='red'>10 000 $</Tag>
+      <Tag size='sm' color='green'>10 000 $</Tag>
+      <Tag size='sm' color='gray'>10 000 $</Tag>
+      <Tag size='sm' color='primary'>10 000 $</Tag>
     </>
   );
 }
