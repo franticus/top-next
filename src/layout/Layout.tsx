@@ -1,17 +1,16 @@
 import React, { FC } from 'react';
 import { LayoutProps } from './LayoutProps';
 import { Header, Sidebar, Footer } from './index';
+import s from './Layout.module.css';
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <>
-      <Header />
-      <div>
-        <Sidebar />
-        <div>{children}</div>
-      </div>
-      <Footer />
-    </>
+    <div className={s.wrapper}>
+      <Header className={s.header} />
+      <Sidebar className={s.sidebar} />
+      <div className={s.body}>{children}</div>
+      <Footer className={s.footer} />
+    </div>
   );
 };
 

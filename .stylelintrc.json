@@ -5,5 +5,9 @@
   ],
   "plugins": [
     "stylelint-order"
-  ]
+  ],
+  "rules": {
+    "declaration-block-no-shorthand-property-overrides": null,
+    "declaration-block-no-redundant-longhand-properties": null
+  }
 }
